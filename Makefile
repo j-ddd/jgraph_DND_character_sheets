@@ -1,8 +1,5 @@
 jgrs = $(wildcard ./*.jgr)
-JGRAPH_LOCAL = ../../jgraph/jgraph
-JGRAPH_HYDRA = /home/jplank/bin/LINUX-X86_64/jgraph
-JGRAPH=$(JGRAPH_HYDRA)
-
+JGRAPH = /home/jplank/bin/LINUX-X86_64/jgraph
 
 files:
 	g++ -o djdc_to_jgraph -Wall djdc_to_jgraph.cpp
