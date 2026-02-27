@@ -6,12 +6,9 @@ files:
 	$(MAKE) -C symbols
 
 clean:
-	rm djdc_to_jgraph
+	rm djdc_to_jgr
 
 junk:
-	$(JGRAPH) -P $@.jgr | ps2pdf - | convert -density 300 - -quality 100 $@.jpg
-
-testjgr:
 	$(JGRAPH) -P $@.jgr | ps2pdf - | convert -density 300 - -quality 100 $@.jpg
 
 echo:
