@@ -1,3 +1,4 @@
+GRAPHS = $(./%.jgr)
 JGRAPH = /home/jplank/bin/LINUX-X86_64/jgraph
 
 all:
