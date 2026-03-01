@@ -43,7 +43,23 @@ Ex: `Equipped Greatsword Attack Strength
 - Notes: (Any additonal notes for this attack/cantrip, but note that I only allow 20 characters for each entry. Ex: for vicious mockery, you could put `Disadv. on Attack`, or `-10ft speed` for ray of frost. Can leave `None`.)
 
 - Finally, heres an example of what a complete entry would look like. Also, here is where you would put a shield.
-- Ex: (`Equipped Shield`, `Equipped Greatsword Attack Strength 2d6+5 Pierce Great Weapon Master`, `Equipped Vicious Mockery Wis 13 1d6+3 Psy. Disadv. on Attack`, )
+- Ex:
+
+
+Equipped
+Shield
+
+Equipped
+Greatsword
+Attack Strength
+2d6+5 Pierce
+Great Weapon Master
+
+Equipped 
+Vicious Mockery 
+Wis 13 
+1d6+3 Psy.
+Disadv. on Attack
 
 
 *1-? Entries Class Features*: Header: `CFeat` - `String`
