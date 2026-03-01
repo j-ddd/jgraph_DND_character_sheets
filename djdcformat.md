@@ -17,7 +17,7 @@ but line numbers should not be included in the actual djdc file.
 - 6 Level - (Put `0` if brand new character) - `int`
 - 7 XP - (Put `0` if brand new character) - `Cannot be negative` - `int`
 - 8 AC (Armor Class) - (Will only accepts ints equal to or greater than `5`) - `int`
-- 9 Current HP - (Put `0` if brand new character) - `Cannot be negative` - `int` 
+- 9 Current HP - `Cannot be negative` - `int` 
 - 10 Temp HP - (Put `0` if brand new character) - `Cannot be negative` - `int`
 - 11 Max HP - `Cannot be negative` - `int`
 - 12 Heroic Inspiration - (Will only accept `0` for no, or `yes`) `int` 
