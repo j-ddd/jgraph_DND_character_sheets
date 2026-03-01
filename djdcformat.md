@@ -45,16 +45,18 @@ Ex: `Equipped Greatsword Attack Strength
 - Finally, heres an example of what a complete entry would look like. Also, here is where you would put a shield.
 - Ex:
 
-
+Shield:
 - Equipped
 - Shield
 
+Weapon:
 - Equipped
 - Greatsword
 - Attack Strength
 - 2d6+5 Pierce
 - Great Weapon Master
 
+Cantrip:
 - Equipped 
 - Vicious Mockery 
 - Wis 13 
