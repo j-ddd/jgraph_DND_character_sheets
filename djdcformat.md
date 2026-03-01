@@ -37,7 +37,7 @@ but line numbers should not be included in the actual djdc file.
 
 *1-6 Entries Equipped Weapon/Cantrip*: Header: `Equipped`  - `String(s)`
 - Weapon name: (Could be anything one-handed, two-handed, a cantrip. Ex: `Shortsword`, `Greatsword`, `Ray of Frost`. Note, I do limit this to 15 characters, so abbreviations may be necesarry.)
-- Attack Bonus/DC: (You need to put what the attack modifier is of the weapon/cantrip, or if its a saving throw, add the number of the save with the respective ability score. Ex: `+5`, `+7`, `Wis 13`, `Int 14`. I've limited it to )
+- Attack Bonus/DC: (You need to put what the attack modifier is of the weapon/cantrip, or if its a saving throw, add the number of the save with the respective ability score. Ex: `+5`, `+7`, `Wis 13`, `Int 14`. I've limited it to 6 characters, so you may need to abbreviate accordingly.)
 - Damage and Type: (This is the damage dice of the attack, along with any modifer you add to it from any source. Ex: `2d6+5 Pierce`, `1d10 Bludg.', `1d10+7 Cold`. I also limit the characters here to 12, so you may need to abbreviate accordingly.)
 - Notes: (Any additonal notes for this attack/cantrip, but note that I only allow 20 characters for each entry. Ex: for vicious mockery, you could put `Disadv. on Attack`, or `-10ft speed` for ray of frost. Can leave `None`.)
 
