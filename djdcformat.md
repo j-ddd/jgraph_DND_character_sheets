@@ -43,7 +43,7 @@ Ex: `Equipped Greatsword Attack Strength
 - Notes: (Any additonal notes for this attack/cantrip, but note that I only allow 20 characters for each entry. Ex: for vicious mockery, you could put `Disadv. on Attack`, or `-10ft speed` for ray of frost. Can leave `None`.)
 
 - Finally, heres an example of what a complete entry would look like. Also, here is where you would put a shield.
-- Ex:
+Examples:
 
 Shield:
 - Equipped
