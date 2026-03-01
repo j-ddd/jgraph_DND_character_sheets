@@ -34,7 +34,6 @@ but line numbers should not be included in the actual djdc file.
 - 23 Skill Proficiencies - (Please a spaced list of all skills that the character is proficient in. Note, the spelling will need to be exactly correct here. Ex: `Athletics Survival Perception Insight`
 
 *From here on out, you will need to put a header in front of the description for the next few things.* 
-Ex: `Equipped Greatsword Attack Strength
 
 *1-6 Entries Equipped Weapon/Cantrip*: Header: `Equipped`  - `String(s)`
 - Weapon name: (Could be anything one-handed, two-handed, a cantrip. Ex: `Shortsword`, `Greatsword`, `Ray of Frost`. Note, I do limit this to 15 characters, so abbreviations may be necesarry.)
