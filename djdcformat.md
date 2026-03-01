@@ -55,7 +55,7 @@ Example:
 - Athletics
 - Survival
 - Perception
-- Arcana
+- SleightOfHand
 
 *1-6 Entries Equipped Weapon/Cantrip*: Header: `Equipped`  - `String(s)`
 - Weapon name: (Could be anything one-handed, two-handed, a cantrip. Ex: `Shortsword`, `Greatsword`, `Ray of Frost`. Note, I do limit this to 15 characters, so abbreviations may be necesarry.)
