@@ -54,7 +54,7 @@ Example:
 - Skills
 - Athletics
 - Survival
-- Perception
+- AnimalHandling
 - SleightOfHand
 
 *1-6 Entries Equipped Weapon/Cantrip*: Header: `Equipped`  - `String(s)`
