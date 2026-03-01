@@ -20,7 +20,7 @@ but line numbers should not be included in the actual djdc file.
 - 9 Current HP - `Cannot be negative` - `int` 
 - 10 Temp HP - (Put `0` if brand new character) - `Cannot be negative` - `int`
 - 11 Max HP - `Cannot be negative` - `int`
-- 12 Heroic Inspiration - (Will only accept `0` for no, or `yes`) `int` 
+- 12 Heroic Inspiration - (Will only accept `0` for no, or `1` for yes) `int` 
 - 13 Strength Score - (Will only accepts ints between `1` up to `30`) - `int`
 - 14 Dexterity Score - (Will only accepts ints between `1` up to `30`) - `int`
 - 15 Constitution Score - (Will only accepts ints between `1` up to `30`) - `int`
