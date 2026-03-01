@@ -49,13 +49,15 @@ Example:
 - Greatsword
 - Longbow
 
-*0-18 Entries Skill Proficiencies* - *HEADER* -> `SKILLS` (Please enter a list of all skills that the character is proficient in. Note, the spelling will need to be exactly correct here.) - `String(s)`
+*0-24 Entries Skill and Save Proficiencies* - *HEADER* -> `SKILLS` (Please enter a list of all skills that the character is proficient in. Note, the spelling will need to be exactly correct here.) - `String(s)`
 Example:
 - SKILLS
 - Athletics
 - Survival
 - AnimalHandling
 - SleightOfHand
+- StrSave
+- DexSave
 
 *1-5 Entries Tool Proficiencies* - *HEADER* -> `TOOLS` - (Please input tool proficiencies as you'd like them to be displayed. Ex: `Thieves` `Cartographers` `Leather` `Smithing`. I do limit this to five entries for brevities sake, so please just put the most relevat ones.) - `String(s)` 
 Example:
