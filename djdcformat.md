@@ -35,7 +35,7 @@ but line numbers should not be included in the actual djdc file.
 
 *1-4 Entries Armor Proficiencies* - (Please put as a list of armors and/or shield: `Light` `Medium` `Heavy` `Shield`. Note, the spelling will need to be exactly correct here.) - `String(s)`
 Example:
-- Armor
+- Armors
 - Shield
 - Light
 - Medium
