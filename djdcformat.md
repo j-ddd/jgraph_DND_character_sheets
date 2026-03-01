@@ -33,39 +33,39 @@ but line numbers should not be included in the actual djdc file.
 *From here on out, you will need to put a header in front of the description for the next few things.* 
 *Also, note that spelling will need to be exactly correct for all headers*
 
-*1-4 Entries Armor Proficiencies* - (Please put as a list of armors and/or shield: `Light` `Medium` `Heavy` `Shield`. Note, the spelling will need to be exactly correct here.) - `String(s)`
+*1-4 Entries Armor Proficiencies*  - *HEADER* -> `ARMORS` - (Please put as a list of armors and/or shield: `Light` `Medium` `Heavy` `Shield`. Note, the spelling will need to be exactly correct here.) - `String(s)`
 Example:
-- Armors
+- ARMORS
 - Shield
 - Light
 - Medium
 - Heavy
 
-*1-10 Entries Weapon Proficiencies* - *HEADER* -> `Weapons` -(Please input weapon proficiencies as you'd like them to be displayed. Ex: `Simple` `Martial` `Simple` `Battleaxe` `Longsword`. I do limit this to ten entries for brevities sake, so please just put the most relevat ones.) - `String(s)` 
+*1-10 Entries Weapon Proficiencies* - *HEADER* -> `WEAPONS` -(Please input weapon proficiencies as you'd like them to be displayed. Ex: `Simple` `Martial` `Simple` `Battleaxe` `Longsword`. I do limit this to ten entries for brevities sake, so please just put the most relevat ones.) - `String(s)` 
 Example:
-- Weapons
+- WEAPONS
 - Simple
 - Battleaxe
 - Greatsword
 - Longbow
 
-*0-18 Entries Skill Proficiencies* - *HEADER* -> `Skills` (Please enter a list of all skills that the character is proficient in. Note, the spelling will need to be exactly correct here.) - `String(s)`
+*0-18 Entries Skill Proficiencies* - *HEADER* -> `SKILLS` (Please enter a list of all skills that the character is proficient in. Note, the spelling will need to be exactly correct here.) - `String(s)`
 Example:
-- Skills
+- SKILLS
 - Athletics
 - Survival
 - AnimalHandling
 - SleightOfHand
 
-*1-5 Entries Tool Proficiencies* - *HEADER* -> `Tools` - (Please input tool proficiencies as you'd like them to be displayed. Ex: `Thieves` `Cartographers` `Leather` `Smithing`. I do limit this to five entries for brevities sake, so please just put the most relevat ones.) - `String(s)` 
+*1-5 Entries Tool Proficiencies* - *HEADER* -> `TOOLS` - (Please input tool proficiencies as you'd like them to be displayed. Ex: `Thieves` `Cartographers` `Leather` `Smithing`. I do limit this to five entries for brevities sake, so please just put the most relevat ones.) - `String(s)` 
 Example:
-- Tools
+- TOOLS
 - Thieves
 - Cartographers
 - Leather
 - Smithing
 
-*1-6 Entries Equipped Weapon/Cantrip*: *HEADER* -> `Equipped`  - `String(s)`
+*1-6 Entries Equipped Weapon/Cantrip*: *HEADER* -> `EQUIPPED`  - `String(s)`
 - Weapon name: (Could be anything one-handed, two-handed, a cantrip. Ex: `Shortsword`, `Greatsword`, `Ray of Frost`. Note, I do limit this to 15 characters, so abbreviations may be necesarry.)
 - Attack Bonus/DC: (You need to put what the attack modifier is of the weapon/cantrip, or if its a saving throw, add the number of the save with the respective ability score. Ex: `+5`, `+7`, `Wis 13`, `Int 14`. I've limited it to 6 characters, so you may need to abbreviate accordingly.)
 - Damage and Type: (This is the damage dice of the attack, along with any modifer you add to it from any source. Ex: `2d6+5 Pierce`, `1d10 Bludg.', `1d10+7 Cold`. I also limit the characters here to 12, so you may need to abbreviate accordingly.)
@@ -75,55 +75,55 @@ Example:
 Examples:
 
 Shield:
-- Equipped
+- EQUIPPED
 - Shield
 
 Weapon:
-- Equipped
+- EQUIPPED
 - Greatsword
 - Attack Strength
 - 2d6+5 Pierce
 - Great Weapon Master
 
 Cantrip:
-- Equipped 
+- EQUIPPED
 - Vicious Mockery 
 - Wis 13 
 - 1d6+3 Psy.
 - Disadv. on Attack
 
 
-*1-? Entries Class Features*: *HEADER* -> `CFeat` - `String`
+*1-? Entries Class Features*: *HEADER* -> `CFEAT` - `String`
 - Just raw text of what the class feature is. All together, I limit the amount of text you can have for each line by X characters. In case you want to manipulate how the lines are written, you can by initiating a new CFeat line.
 Example:
 
-- CFeat
+- CFEAT
 - Second Wind (Twice per short rest)
-- CFeat
+- CFEAT
 - Action Surge (Once per short rest)
-- CFeat
+- CFEAT
 - Once per short rest, you may choose one ally. That ally then
-- CFeat
+- CFEAT
 - gains +1d4 to all saving throws until the next long rest.
 
-*1-? Entries Species Features*: *HEADER* -> `SFeat` - `String`
+*1-? Entries Species Features*: *HEADER* -> `SFEAT` - `String`
 - Just raw text of what the species feature is. All together, I limit the amount of text you can have for each line by X characters. In case you want to manipulate how the lines are written, you can by initiating a new SFeat line.
 Example:
 
-- SFeat
+- SFEAT
 - Fury of the Small
-- SFeat
+- SFEAT
 - Human Extra Feat
 
 
-*1-? Entries Feats*: Header: *HEADER* -> `Feat` - `String`
+*1-? Entries Feats*: Header: *HEADER* -> `FEAT` - `String`
 - Just raw text of what the feat is. All together, I limit the amount of text you can have for each line by X characters. In case you want to manipulate how the lines are written, you can by initiating a new Feat line.
 Example:
 
-- Feat
+- FEAT
 - Tough
-- Feat
+- FEAT
 - Ability Score Improvement: +1 Dexterity and
-- Feat
+- FEAT
 - +1 Charisma
 
