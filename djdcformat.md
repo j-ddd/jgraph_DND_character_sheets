@@ -46,20 +46,20 @@ Ex: `Equipped Greatsword Attack Strength
 - Ex:
 
 
-Equipped
-Shield
+- Equipped
+- Shield
 
-Equipped
-Greatsword
-Attack Strength
-2d6+5 Pierce
-Great Weapon Master
+- Equipped
+- Greatsword
+- Attack Strength
+- 2d6+5 Pierce
+- Great Weapon Master
 
-Equipped 
-Vicious Mockery 
-Wis 13 
-1d6+3 Psy.
-Disadv. on Attack
+- Equipped 
+- Vicious Mockery 
+- Wis 13 
+- 1d6+3 Psy.
+- Disadv. on Attack
 
 
 *1-? Entries Class Features*: Header: `CFeat` - `String`
