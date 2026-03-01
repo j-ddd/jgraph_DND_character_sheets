@@ -81,7 +81,7 @@ Shield:
 Weapon:
 - EQUIPPED
 - Greatsword
-- Attack Strength
+- +7
 - 2d6+5 Pierce
 - Great Weapon Master
 
