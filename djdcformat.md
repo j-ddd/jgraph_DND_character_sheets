@@ -41,7 +41,7 @@ Example:
 - Medium
 - Heavy
 
-*1-10 Entries Weapon Proficiencies* - (Please input weapon proficiencies as you'd like them to be displayed. Ex: `Simple` `Martial` `Simple` `Battleaxe` `Longsword`. I do limit this to ten entries for brevities sake, so please just put the most relevat ones.) - `String(s)` 
+*1-10 Entries Weapon Proficiencies* - *HEADER* -> `Weapons` -(Please input weapon proficiencies as you'd like them to be displayed. Ex: `Simple` `Martial` `Simple` `Battleaxe` `Longsword`. I do limit this to ten entries for brevities sake, so please just put the most relevat ones.) - `String(s)` 
 Example:
 - Weapons
 - Simple
@@ -49,7 +49,7 @@ Example:
 - Greatsword
 - Longbow
 
-*0-18 Entries Skill Proficiencies* - (Please enter a list of all skills that the character is proficient in. Note, the spelling will need to be exactly correct here.) - `String(s)`
+*0-18 Entries Skill Proficiencies* - *HEADER* -> `Skills` (Please enter a list of all skills that the character is proficient in. Note, the spelling will need to be exactly correct here.) - `String(s)`
 Example:
 - Skills
 - Athletics
@@ -57,14 +57,15 @@ Example:
 - AnimalHandling
 - SleightOfHand
 
-*1-5 Entries Tool Proficiencies* - (Please input tool proficiencies as you'd like them to be displayed. Ex: `Thieves` `Cartographers` `Leather` `Smithing`. I do limit this to five entries for brevities sake, so please just put the most relevat ones.) - `String(s)` 
+*1-5 Entries Tool Proficiencies* - *HEADER* -> `Tools` - (Please input tool proficiencies as you'd like them to be displayed. Ex: `Thieves` `Cartographers` `Leather` `Smithing`. I do limit this to five entries for brevities sake, so please just put the most relevat ones.) - `String(s)` 
 Example:
+- Tools
 - Thieves
 - Cartographers
 - Leather
 - Smithing
 
-*1-6 Entries Equipped Weapon/Cantrip*: Header: `Equipped`  - `String(s)`
+*1-6 Entries Equipped Weapon/Cantrip*: *HEADER* -> `Equipped`  - `String(s)`
 - Weapon name: (Could be anything one-handed, two-handed, a cantrip. Ex: `Shortsword`, `Greatsword`, `Ray of Frost`. Note, I do limit this to 15 characters, so abbreviations may be necesarry.)
 - Attack Bonus/DC: (You need to put what the attack modifier is of the weapon/cantrip, or if its a saving throw, add the number of the save with the respective ability score. Ex: `+5`, `+7`, `Wis 13`, `Int 14`. I've limited it to 6 characters, so you may need to abbreviate accordingly.)
 - Damage and Type: (This is the damage dice of the attack, along with any modifer you add to it from any source. Ex: `2d6+5 Pierce`, `1d10 Bludg.', `1d10+7 Cold`. I also limit the characters here to 12, so you may need to abbreviate accordingly.)
@@ -92,7 +93,7 @@ Cantrip:
 - Disadv. on Attack
 
 
-*1-? Entries Class Features*: Header: `CFeat` - `String`
+*1-? Entries Class Features*: *HEADER* -> `CFeat` - `String`
 - Just raw text of what the class feature is. All together, I limit the amount of text you can have for each line by X characters. In case you want to manipulate how the lines are written, you can by initiating a new CFeat line.
 Example:
 
@@ -105,7 +106,7 @@ Example:
 - CFeat
 - gains +1d4 to all saving throws until the next long rest.
 
-*1-? Entries Species Features*: Header: `SFeat` - `String`
+*1-? Entries Species Features*: *HEADER* -> `SFeat` - `String`
 - Just raw text of what the species feature is. All together, I limit the amount of text you can have for each line by X characters. In case you want to manipulate how the lines are written, you can by initiating a new SFeat line.
 Example:
 
@@ -115,7 +116,7 @@ Example:
 - Human Extra Feat
 
 
-*1-? Entries Feats*: Header: `Feat` - `String`
+*1-? Entries Feats*: Header: *HEADER* -> `Feat` - `String`
 - Just raw text of what the feat is. All together, I limit the amount of text you can have for each line by X characters. In case you want to manipulate how the lines are written, you can by initiating a new Feat line.
 Example:
 
