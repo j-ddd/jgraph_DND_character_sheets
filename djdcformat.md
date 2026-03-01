@@ -57,6 +57,13 @@ Example:
 - AnimalHandling
 - SleightOfHand
 
+*1-5 Entries Tool Proficiencies* - (Please input tool proficiencies as you'd like them to be displayed. Ex: `Thieves` `Cartographers` `Leather` `Smithing`. I do limit this to five entries for brevities sake, so please just put the most relevat ones.) - `String(s)` 
+Example:
+- Thieves
+- Cartographers
+- Leather
+- Smithing
+
 *1-6 Entries Equipped Weapon/Cantrip*: Header: `Equipped`  - `String(s)`
 - Weapon name: (Could be anything one-handed, two-handed, a cantrip. Ex: `Shortsword`, `Greatsword`, `Ray of Frost`. Note, I do limit this to 15 characters, so abbreviations may be necesarry.)
 - Attack Bonus/DC: (You need to put what the attack modifier is of the weapon/cantrip, or if its a saving throw, add the number of the save with the respective ability score. Ex: `+5`, `+7`, `Wis 13`, `Int 14`. I've limited it to 6 characters, so you may need to abbreviate accordingly.)
