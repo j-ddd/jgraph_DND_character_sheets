@@ -29,11 +29,33 @@ but line numbers should not be included in the actual djdc file.
 - 18 Charisma Score - (Will only accepts ints between `1` up to `30`) - `int`
 - 19 Size - (Leave as `M` for medium, unless you are a small species like `Goblin`. Then put `S` for small) - `char`
 - 20 Speed - (Leave as `30` if not playing a species that affects your movement speed. Fly/Swim speed will be in features) - `int`
-- 21 Armor Proficiencies - (Please put as spaced list of armors and/or shield: `Light Medium Heavy Shield`) - `String(s)`
-- 22 Weapon Proficiencies - (Please input weapon proficiencies as you'd like them to be displayed. Ex: `Simple, Martial` or `Simple, Battleaxe, Longsword') - `String`
-- 23 Skill Proficiencies - (Please a spaced list of all skills that the character is proficient in. Note, the spelling will need to be exactly correct here. Ex: `Athletics Survival Perception Insight`
 
 *From here on out, you will need to put a header in front of the description for the next few things.* 
+*Also, note that spelling will need to be exactly correct for all headers*
+
+*1-4 Entries Armor Proficiencies* - (Please put as a list of armors and/or shield: `Light` `Medium` `Heavy` `Shield`. Note, the spelling will need to be exactly correct here.) - `String(s)`
+Example:
+- Armor
+- Shield
+- Light
+- Medium
+- Heavy
+
+*1-10 Entries Weapon Proficiencies* - (Please input weapon proficiencies as you'd like them to be displayed. Ex: `Simple` `Martial` `Simple` `Battleaxe` `Longsword`. I do limit this to ten entries for brevities sake, so please just put the most relevat ones.) - `String(s)` 
+Example:
+- Weapons
+- Simple
+- Battleaxe
+- Greatsword
+- Longbow
+
+*0-18 Entries Skill Proficiencies* - (Please enter a list of all skills that the character is proficient in. Note, the spelling will need to be exactly correct here.) - `String(s)`
+Example:
+- Skills
+- Athletics
+- Survival
+- Perception
+- Arcana
 
 *1-6 Entries Equipped Weapon/Cantrip*: Header: `Equipped`  - `String(s)`
 - Weapon name: (Could be anything one-handed, two-handed, a cantrip. Ex: `Shortsword`, `Greatsword`, `Ray of Frost`. Note, I do limit this to 15 characters, so abbreviations may be necesarry.)
@@ -64,13 +86,36 @@ Cantrip:
 
 
 *1-? Entries Class Features*: Header: `CFeat` - `String`
-- Just raw text of what the class feature is. All together, I limit the amount of text you can have for each line by X characters.
+- Just raw text of what the class feature is. All together, I limit the amount of text you can have for each line by X characters. In case you want to manipulate how the lines are written, you can by initiating a new CFeat line.
+Example:
 
+- CFeat
+- Second Wind (Twice per short rest)
+- CFeat
+- Action Surge (Once per short rest)
+- CFeat
+- Once per short rest, you may choose one ally. That ally then
+- CFeat
+- gains +1d4 to all saving throws until the next long rest.
 
 *1-? Entries Species Features*: Header: `SFeat` - `String`
-- Just raw text of what the species feature is. All together, I limit the amount of text you can have for each line by X characters.
+- Just raw text of what the species feature is. All together, I limit the amount of text you can have for each line by X characters. In case you want to manipulate how the lines are written, you can by initiating a new SFeat line.
+Example:
+
+- SFeat
+- Fury of the Small
+- SFeat
+- Human Extra Feat
 
 
 *1-? Entries Feats*: Header: `Feat` - `String`
-- Just raw text of what the feat is. All together, I limit the amount of text you can have for each line by X characters.
+- Just raw text of what the feat is. All together, I limit the amount of text you can have for each line by X characters. In case you want to manipulate how the lines are written, you can by initiating a new Feat line.
+Example:
+
+- Feat
+- Tough
+- Feat
+- Ability Score Improvement: +1 Dexterity and
+- Feat
+- +1 Charisma
 
