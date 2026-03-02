@@ -14,8 +14,8 @@ but line numbers should not be included in the actual djdc file.
 - 3 Species - `String`
 - 4 Class - `String`
 - 5 Subclass - `String`
-- 6 Level - (Put `0` if brand new character) - `int`
-- 7 XP - (Put `0` if brand new character) - `Cannot be negative` - `int`
+- 6 Level - (Put `1` if brand new character. Only takes between `1`-`20`) - `int`
+- 7 XP - (Put `0` if brand new character, or if not using XP. Can handle up to `999999`) - `Cannot be negative` - `int`
 - 8 AC (Armor Class) - (Will only accepts ints equal to or greater than `5`, up to `99`) - `int`
 - 9 Current HP - `Cannot be negative` - `int` 
 - 10 Temp HP - (Put `0` if brand new character) - `Cannot be negative` - `int`
