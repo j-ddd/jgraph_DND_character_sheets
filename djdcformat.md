@@ -1,6 +1,6 @@
   # DJDC format (Dodd Jgraph DnD Character format)
 
-- All text assumes raw strings with no headers or leading words for the first 23 lines.
+- All text assumes raw strings with no headers or leading words for the first 22 lines.
 - To the left of input word, I've included line numbers to make it easier to read, 
 but line numbers should not be included in the actual djdc file.
 - Additionally, I've added what data types the program will expect as inputs.
@@ -29,6 +29,8 @@ but line numbers should not be included in the actual djdc file.
 - 18 Charisma Score - (Will only accepts ints between `1` up to `30`) - `int`
 - 19 Size - (Leave as `M` for medium, unless you are a small species like `Goblin`. Then put `S` for small) - `char`
 - 20 Speed - (Leave as `30` if not playing a species that affects your movement speed. Fly/Swim speed will be in features) - `int`
+- 21 Hit Dice - (Whatever dice your class uses as its hit dice) - `d8` - `String`
+- 22 Spent Hit Dice - (However many hit dice you've spent. If none, put `0`) - `1-20` `int`
 
 *From here on out, you will need to put a header in front of the description for the next few things.* 
 *Also, note that spelling will need to be exactly correct for all headers*
