@@ -43,7 +43,7 @@ Example:
 - Medium
 - Heavy
 
-*1-10 Entries Weapon Proficiencies* - *HEADER* -> `WEAPONS` -(Please input weapon proficiencies as you'd like them to be displayed. Ex: `Simple` `Martial` `Simple` `Battleaxe` `Longsword`. I do limit this to ten entries for brevities sake, so please just put the most relevat ones.) - `String(s)` 
+*1-9 Entries Weapon Proficiencies* - *HEADER* -> `WEAPONS` -(Please input weapon proficiencies as you'd like them to be displayed. Ex: `Simple` `Martial` `Simple` `Battleaxe` `Longsword`. I do limit this to ten entries for brevities sake, so please just put the most relevat ones.) - `String(s)` 
 Example:
 - WEAPONS
 - Simple
