@@ -15,7 +15,7 @@ echo:
 	echo $(jgrs)
 	echo $@
 
-examples: files Drake Khabib Proxy
+examples: files Drake Khabib Proxy Ghengis Jobs
 
 Drake:
 	./djdc_to_jgr < ./djdcs/Drake.djdc > ./jgrs/$@.jgr
@@ -27,4 +27,12 @@ Khabib:
 
 Proxy:
 	./djdc_to_jgr < ./djdcs/Proxy.djdc > ./jgrs/$@.jgr
+	$(JGRAPH) -P ./jgrs/$@.jgr | ps2pdf - | convert -density 300 - -quality 100 ./characters/$@.jpg
+
+Ghengis:
+	./djdc_to_jgr < ./djdcs/Ghengis.djdc > ./jgrs/$@.jgr
+	$(JGRAPH) -P ./jgrs/$@.jgr | ps2pdf - | convert -density 300 - -quality 100 ./characters/$@.jpg
+
+Jobs:
+	./djdc_to_jgr < ./djdcs/Jobs.djdc > ./jgrs/$@.jgr
 	$(JGRAPH) -P ./jgrs/$@.jgr | ps2pdf - | convert -density 300 - -quality 100 ./characters/$@.jpg
