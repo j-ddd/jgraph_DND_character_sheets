@@ -1,0 +1,224 @@
+newgraph
+xaxis min 0 max 100 nodraw
+yaxis min 0 max 100 nodraw
+newcurve eps symbols/name_box.ps marksize 125 100 pts -105 383
+newcurve eps symbols/level.ps marksize 50 50 pts -31 383
+newcurve eps symbols/ac.ps marksize 50 50 pts 0 383
+newcurve eps symbols/health.ps marksize 50 50 pts 47 383
+newcurve eps symbols/hitdice.ps marksize 50 50 pts 91 383
+newcurve eps symbols/prof_bonus.ps marksize 50 50 pts -140 332
+newcurve eps symbols/heroic_ins.ps marksize 50 50 pts -85 332
+newcurve eps symbols/initiative.ps marksize 50 50 pts -35 332
+newcurve eps symbols/speed.ps marksize 50 50 pts 5 332
+newcurve eps symbols/size.ps marksize 50 50 pts 45 332
+newcurve eps symbols/pass_perc.ps marksize 50 50 pts 85 332
+newcurve eps symbols/ability_mod.ps marksize 50 50 pts -140 293
+newcurve eps symbols/ability_mod.ps marksize 50 50 pts -85 293
+newcurve eps symbols/ability_mod.ps marksize 50 50 pts -140 242
+newcurve eps symbols/ability_mod.ps marksize 50 50 pts -85 242
+newcurve eps symbols/ability_mod.ps marksize 50 50 pts -140 191
+newcurve eps symbols/ability_mod.ps marksize 50 50 pts -85 191
+newcurve eps symbols/skills.ps marksize 105.5 105.5 pts -112.5 129
+newcurve eps symbols/weaps_tools.ps marksize 105.5 105.5 pts -112.5 55
+newcurve eps symbols/equipped.ps marksize 160 160 pts 24 281
+newcurve eps symbols/feat.ps marksize 160 160 pts 24 198
+newcurve eps symbols/feat.ps marksize 160 160 pts 24 126
+newcurve eps symbols/feat.ps marksize 160 160 pts 24 54
+newstring font Helvetica fontsize 12 x -158 y 396 hjl vjc :
+Khabib Nurmagomedov
+newstring font Times-Roman fontsize 6 x -145 y 390 hjc vjc :
+CHARACTER NAME
+newstring font Helvetica fontsize 10 x -158 y 383 hjl vjc :
+Soldier
+newstring font Times-Roman fontsize 6 x -147 y 378 hjc vjc :
+BACKGROUND
+newstring font Helvetica fontsize 10 x -102 y 383 hjl vjc :
+Fighter
+newstring font Times-Roman fontsize 6 x -98 y 378 hjc vjc :
+CLASS
+newstring font Helvetica fontsize 10 x -158 y 371 hjl vjc :
+Goliath
+newstring font Times-Roman fontsize 6 x -152 y 366 hjc vjc :
+SPECIES
+newstring font Helvetica fontsize 10 x -102 y 371 hjl vjc :
+Battle Master
+newstring font Times-Roman fontsize 6 x -96 y 366 hjc vjc :
+SUBCLASS
+newstring font Times-Roman fontsize 20 x -31 y 388 hjc vjc :
+12
+newstring font Times-Roman fontsize 12 x -31 y 372 hjc vjc :
+999999
+newstring font Times-Roman fontsize 24 x 0 y 382 hjc vjc :
+20
+newstring font Times-Roman fontsize 22 x 32 y 372 hjc vjc :
+120
+newstring font Times-Roman fontsize 14 x 59 y 385 hjc vjc :
+0
+newstring font Times-Roman fontsize 14 x 59 y 370 hjc vjc :
+120
+newstring font Times-Roman fontsize 14 x 90 y 385 hjc vjc :
+0d12
+newstring font Times-Roman fontsize 14 x 90 y 370 hjc vjc :
+12d12
+newstring font Times-Roman fontsize 18 x -140 y 330 hjc vjc :
++4
+newcurve marktype circle marksize 4 4 fill 0.5 pts -85 327
+newstring font Times-Roman fontsize 18 x 5 y 330 hjc vjc :
+35ft.
+newstring font Times-Roman fontsize 18 x 45 y 330 hjc vjc :
+L
+newstring font Times-Roman fontsize 10 x -140 y 313 hjc vjc :
+STRENGTH
+newstring font Times-Roman fontsize 22 x -150 y 298 hjc vjc :
++5
+newstring font Times-Roman fontsize 20 x -128 y 298 hjc vjc :
+20
+newcurve marktype circle marksize 2.5 2.5 fill 0.5 pts -160 274.5
+newstring font Times-Roman fontsize 14 x -151 y 275 hjc vjc :
++9
+newstring font Times-Roman fontsize 10 x -140 y 262 hjc vjc :
+DEXTERITY
+newstring font Times-Roman fontsize 22 x -150 y 247 hjc vjc :
++5
+newstring font Times-Roman fontsize 20 x -128 y 247 hjc vjc :
+20
+newcurve marktype circle marksize 2.5 2.5 fill 0.5 pts -160 223.5
+newstring font Times-Roman fontsize 14 x -151 y 224 hjc vjc :
++9
+newstring font Times-Roman fontsize 18 x -35 y 330 hjc vjc :
++5
+newstring font Times-Roman fontsize 10 x -140 y 211 hjc vjc :
+CONSTITUTION
+newstring font Times-Roman fontsize 22 x -150 y 196 hjc vjc :
++5
+newstring font Times-Roman fontsize 20 x -128 y 196 hjc vjc :
+20
+newcurve marktype circle marksize 2.5 2.5 fill 0.5 pts -160 172.5
+newstring font Times-Roman fontsize 14 x -151 y 173 hjc vjc :
++9
+newstring font Times-Roman fontsize 10 x -85 y 313 hjc vjc :
+INTELLIGENCE
+newstring font Times-Roman fontsize 22 x -95 y 298 hjc vjc :
++2
+newstring font Times-Roman fontsize 20 x -73 y 298 hjc vjc :
+14
+newcurve marktype circle marksize 2.5 2.5 fill 0.5 pts -105 274.5
+newstring font Times-Roman fontsize 14 x -96 y 275 hjc vjc :
++6
+newstring font Times-Roman fontsize 10 x -85 y 262 hjc vjc :
+WISDOM
+newstring font Times-Roman fontsize 22 x -95 y 247 hjc vjc :
++2
+newstring font Times-Roman fontsize 20 x -73 y 247 hjc vjc :
+14
+newcurve marktype circle marksize 2.5 2.5 fill 0.5 pts -105 223.5
+newstring font Times-Roman fontsize 14 x -96 y 224 hjc vjc :
++6
+newstring font Times-Roman fontsize 10 x -85 y 211 hjc vjc :
+CHARISMA
+newstring font Times-Roman fontsize 22 x -95 y 196 hjc vjc :
++4
+newstring font Times-Roman fontsize 20 x -73 y 196 hjc vjc :
+18
+newstring font Times-Roman fontsize 14 x -96 y 173 hjc vjc :
++4
+newcurve marktype circle marksize 2.5 2.5 fill 0.5 pts -160 158.25
+newstring font Times-Roman fontsize 12 x -151 y 159 hjc vjc :
++9
+newcurve marktype circle marksize 2.5 2.5 fill 0.5 pts -160 151
+newstring font Times-Roman fontsize 12 x -151 y 152 hjc vjc :
++6
+newstring font Times-Roman fontsize 12 x -151 y 145 hjc vjc :
++2
+newcurve marktype circle marksize 2.5 2.5 fill 0.5 pts -160 136.5
+newstring font Times-Roman fontsize 12 x -151 y 138 hjc vjc :
++9
+newstring font Times-Roman fontsize 12 x -151 y 131 hjc vjc :
++4
+newcurve marktype circle marksize 2.5 2.5 fill 0.5 pts -160 122
+newstring font Times-Roman fontsize 12 x -151 y 124 hjc vjc :
++6
+newcurve marktype circle marksize 2.5 2.5 fill 0.5 pts -160 114.75
+newstring font Times-Roman fontsize 12 x -151 y 117 hjc vjc :
++6
+newcurve marktype circle marksize 2.5 2.5 fill 0.5 pts -160 107.5
+newstring font Times-Roman fontsize 12 x -151 y 110 hjc vjc :
++8
+newcurve marktype circle marksize 2.5 2.5 fill 0.5 pts -160 100.25
+newstring font Times-Roman fontsize 12 x -151 y 103 hjc vjc :
++6
+newstring font Times-Roman fontsize 12 x -96 y 159 hjc vjc :
++2
+newcurve marktype circle marksize 2.5 2.5 fill 0.5 pts -105 151
+newstring font Times-Roman fontsize 12 x -96 y 152 hjc vjc :
++6
+newcurve marktype circle marksize 2.5 2.5 fill 0.5 pts -105 143.75
+newstring font Times-Roman fontsize 12 x -96 y 145 hjc vjc :
++6
+newstring font Times-Roman fontsize 18 x 85 y 330 hjc vjc :
++6
+newcurve marktype circle marksize 2.5 2.5 fill 0.5 pts -105 136.5
+newstring font Times-Roman fontsize 12 x -96 y 138 hjc vjc :
++8
+newcurve marktype circle marksize 2.5 2.5 fill 0.5 pts -105 129.25
+newstring font Times-Roman fontsize 12 x -96 y 131 hjc vjc :
++8
+newcurve marktype circle marksize 2.5 2.5 fill 0.5 pts -105 122
+newstring font Times-Roman fontsize 12 x -96 y 124 hjc vjc :
++6
+newcurve marktype circle marksize 2.5 2.5 fill 0.5 pts -105 114.75
+newstring font Times-Roman fontsize 12 x -96 y 117 hjc vjc :
++9
+newstring font Times-Roman fontsize 12 x -96 y 110 hjc vjc :
++5
+newcurve marktype circle marksize 2.5 2.5 fill 0.5 pts -105 100.25
+newstring font Times-Roman fontsize 12 x -96 y 103 hjc vjc :
++6
+newcurve marktype circle marksize 2.5 2.5 fill 0.5 pts -77 77
+newcurve marktype circle marksize 2.5 2.5 fill 0.5 pts -139.5 77
+newcurve marktype circle marksize 2.5 2.5 fill 0.5 pts -120 77
+newcurve marktype circle marksize 2.5 2.5 fill 0.5 pts -98 77
+newstring font Times-Roman fontsize 10 x -160 y 62 hjl vjc :
+Simple, Martial
+newstring font Times-Roman fontsize 10 x -160 y 50 hjl vjc :
+
+newstring font Times-Roman fontsize 10 x -160 y 32 hjl vjc :
+Leather, Scribe's
+newstring font Times-Roman fontsize 8 x -160 y 20 hjl vjc :
+
+newstring font Times-Roman fontsize 11 x -51 y 299 hjl vjc :
+Battleaxe
+newstring font Times-Roman fontsize 10 x 2 y 299 hjc vjc :
++9
+newstring font Times-Roman fontsize 10 x 18 y 299 hjl vjc :
+1d12+5 Slash
+newstring font Times-Roman fontsize 10 x 56 y 299 hjl vjc :
+Two-Handed
+newstring font Times-Roman fontsize 13 x 20 y 230 hjc vjc :
+CLASS FEATURES
+newstring font Times-Roman fontsize 10 x -51 y 220 hjl vjc :
+Second Wind
+newstring font Times-Roman fontsize 10 x -51 y 210 hjl vjc :
+Action Surge
+newstring font Times-Roman fontsize 10 x -51 y 200 hjl vjc :
+Battle Manuevers
+newstring font Times-Roman fontsize 10 x -51 y 190 hjl vjc :
+Indomitable
+newstring font Times-Roman fontsize 13 x 20 y 158 hjc vjc :
+CLASS FEATURES
+newstring font Times-Roman fontsize 10 x -51 y 148 hjl vjc :
+Human Extra Feat
+newstring font Times-Roman fontsize 10 x -51 y 138 hjl vjc :
+Human Versaility (Extra Skill Prof.)
+newstring font Times-Roman fontsize 10 x -51 y 128 hjl vjc :
+Human Extra Language (Elvish)
+newstring font Times-Roman fontsize 13 x 20 y 86 hjc vjc :
+CLASS FEATURES
+newstring font Times-Roman fontsize 10 x -51 y 76 hjl vjc :
+Tough
+newstring font Times-Roman fontsize 10 x -51 y 66 hjl vjc :
+Ability Score Improvement +2 Strength
+newstring font Times-Roman fontsize 10 x -51 y 56 hjl vjc :
+Tavern Brawler
+newstring font Times-Roman fontsize 10 x -51 y 46 hjl vjc :
+Grappler
