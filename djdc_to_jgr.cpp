@@ -437,7 +437,7 @@ int main(void)
         // shield indicator (if equipped)
         if(shield==1)
         {
-                cout << "newcurve marktype circle marksize 4 4 fill 0.5 pts 0 363" << endl;
+                cout << "newcurve marktype circle marksize 4 4 fill 0.5 pts 0 365" << endl;
         }
 
         // print out boxes for curr, max, temp HP, plus total and spent HitDice
