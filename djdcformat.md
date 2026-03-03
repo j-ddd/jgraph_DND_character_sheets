@@ -97,8 +97,8 @@ Cantrip:
 - Disadv. on Attack
 
 
-*1-? Entries Class Features*: *HEADER* -> `CFEAT` - `String`
-- Just raw text of what the class feature is. All together, I limit the amount of text you can have for each line by X characters. In case you want to manipulate how the lines are written, you can by initiating a new CFeat line.
+*1-6 Entries Class Features*: *HEADER* -> `CFEAT` - `String`
+- Just raw text of what the class feature is. All together, I limit the amount of text you can have for each line by 50 characters. In case you want to manipulate how the lines are written, you can by initiating a new CFeat line.
 Example:
 
 - CFEAT
@@ -110,8 +110,8 @@ Example:
 - CFEAT
 - gains +1d4 to all saving throws until the next long rest.
 
-*1-? Entries Species Features*: *HEADER* -> `SFEAT` - `String`
-- Just raw text of what the species feature is. All together, I limit the amount of text you can have for each line by X characters. In case you want to manipulate how the lines are written, you can by initiating a new SFeat line.
+*1-6 Entries Species Features*: *HEADER* -> `SFEAT` - `String`
+- Just raw text of what the species feature is. All together, I limit the amount of text you can have for each line by 50 characters. In case you want to manipulate how the lines are written, you can by initiating a new SFeat line.
 Example:
 
 - SFEAT
@@ -120,8 +120,8 @@ Example:
 - Human Extra Feat
 
 
-*1-? Entries Feats*: Header: *HEADER* -> `FEAT` - `String`
-- Just raw text of what the feat is. All together, I limit the amount of text you can have for each line by X characters. In case you want to manipulate how the lines are written, you can by initiating a new Feat line.
+*1-6 Entries Feats*: Header: *HEADER* -> `FEAT` - `String`
+- Just raw text of what the feat is. All together, I limit the amount of text you can have for each line by 50 characters. In case you want to manipulate how the lines are written, you can by initiating a new Feat line.
 Example:
 
 - FEAT
