@@ -1,0 +1,121 @@
+newgraph
+xaxis min -100 max 100 nodraw
+yaxis min -100 max 100 nodraw
+
+(* bottom thick line *)
+newline poly pfill 0 pts
+-100 -56
+-100 -57
+100 -57
+100 -56
+
+(* left vertical thick line *)
+newline poly pfill 0 pts
+-100 -57
+-100 47
+-99 47
+-99 -57
+
+(* top thick line *)
+newline poly pfill 0 pts
+-100 47
+-100 46
+100 46
+100 47
+
+(* right thick line *)
+newline poly pfill 0 pts
+99 47
+100 47
+100 -57
+99 -57
+
+(* title seperator line *)
+newline poly pfill 0 pts
+-96 38
+-96 38.1
+96 38.1
+96 38
+
+(* EQUIPPED WEAPONS & CANTRIPS text *)
+newstring font Times-Roman fontsize 7 x 0 y 41.5 hjc vjc :
+EQUIPPED WEAPONS & CANTRIPS
+
+(* Name text *)
+newstring font Helvetica fontsize 5 x -96 y 34 hjl vjc :
+Name
+
+(* Name/Attack bonus seperator line *)
+newline poly pfill 0 pts
+-42.1 36
+-42 36
+-42 -53
+-42.1 -53
+
+(* Atk Bonus/DC text *)
+newstring font Helvetica fontsize 5 x -40.5 y 34 hjl vjc :
+Atk Bonus/DC
+
+(* Attack bonus/DamageType seperator line *)
+newline poly pfill 0 pts
+-8.6 36
+-8.5 36
+-8.5 -53
+-8.6 -53
+
+(* Damage & Type text *)
+newstring font Helvetica fontsize 5 x -7.5 y 34 hjl vjc :
+Damage/Type
+
+(* DamageType/Notes seperator line *)
+newline poly pfill 0 pts
+38.5 36
+38.6 36
+38.6 -53
+38.5 -53
+
+(* Notes text *)
+newstring font Helvetica fontsize 5 x 40 y 34 hjl vjc :
+Notes
+
+(* 1st equip line *)
+newline poly pfill 0 pts
+-96 19.5
+-96 19.51
+96 19.51
+96 19.5
+
+(* 2nd equip line *)
+newline poly pfill 0 pts
+-96 5
+-96 5.01
+96 5.01
+96 5
+
+(* 3rd equip line *)
+newline poly pfill 0 pts
+-96 -9.5
+-96 -9.51
+96 -9.51
+96 -9.5
+
+(* 4th equip line *)
+newline poly pfill 0 pts
+-96 -24
+-96 -24.01
+96 -24.01
+96 -24
+
+(* 5th equip line *)
+newline poly pfill 0 pts
+-96 -38.5
+-96 -38.51
+96 -38.51
+96 -38.5
+
+(* 6th equip line *)
+newline poly pfill 0 pts
+-96 -53
+-96 -53.01
+96 -53.01
+96 -53

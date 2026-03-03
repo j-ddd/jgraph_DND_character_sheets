@@ -1,0 +1,54 @@
+newgraph
+xaxis min -100 max 100 nodraw
+yaxis min -100 max 100 nodraw
+
+(* top line *)
+newline poly pfill 0 pts
+-60 72
+-60 71
+60 71
+60 72
+
+(* left veritcal line *)
+newline poly pfill 0 pts
+-60 72
+-59 72
+-59 -40
+-60 -40
+
+(* left diagonal line *)
+newline poly pfill 0 pts
+-60 -40
+-59 -40
+0.5 -90
+-0.5 -90
+
+(* right veritcal line *)
+newline poly pfill 0 pts
+60 72
+59 72
+59 -40
+60 -40
+
+(* right diagonal line *)
+newline poly pfill 0 pts
+60 -40
+59 -40
+-0.5 -90
+0.5 -90
+
+
+(* shield worn circle *)
+newcurve marktype circle marksize 20.25 20.25 fill 1 pts 0 -68
+
+(* SHIELD text *)
+newstring font Times-Roman fontsize 17 x 0 y -45 hjc vjc :
+SHIELD
+
+(* ARMOR text *)
+newstring font Helvetica fontsize 17 x 0 y 60 hjc vjc :
+ARMOR
+
+(* CLASS text *)
+newstring font Helvetica fontsize 17 x 0 y 40 hjc vjc :
+CLASS

@@ -1,0 +1,103 @@
+newgraph
+xaxis min -100 max 100 nodraw
+yaxis min -100 max 100 nodraw
+
+(* bottom thick line *)
+newline poly pfill 0 pts
+-100 -67
+-100 -68
+100 -68
+100 -67
+
+(* left vertical thick line *)
+newline poly pfill 0 pts
+-100 -68
+-100 68
+-99 68
+-99 -68
+
+(* top thick line *)
+newline poly pfill 0 pts
+-100 68
+-100 67
+100 67
+100 68
+
+(* right thick line *)
+newline poly pfill 0 pts
+99 68
+100 68
+100 -68
+99 -68
+
+(* training and proficiencies title line *)
+newline poly pfill 0 pts
+-96 51
+-96 51.5
+96 51.5
+96 51
+
+(* EQUIPMENT TRAINING & PROFICIENCIES text *)
+newstring font Helvetica fontsize 9 x 0 y 58 hjc vjc :
+EQUIPMENT TRAINING & PROFICIENCIES
+
+(* ARMOR text *)
+newstring font Times-Roman fontsize 7 x -84 y 45 hjc vjc :
+ARMOR
+
+(* TRAINING text *)
+newstring font Times-Roman fontsize 7 x -80 y 39 hjc vjc :
+TRAINING
+
+(* Light armor proficiency circle *)
+newcurve marktype circle marksize 6 6 fill 1 pts -51.5 42.5
+
+(* Light text *)
+newstring font Helvetica fontsize 7 x -37 y 42.5 hjc vjc :
+Light
+
+(* Medium armor proficiency circle *)
+newcurve marktype circle marksize 6 6 fill 1 pts -14 42.5
+
+(* Medium text *)
+newstring font Helvetica fontsize 7 x 3 y 42.5 hjc vjc :
+Medium
+
+(* Heavy armor proficiency circle *)
+newcurve marktype circle marksize 6 6 fill 1 pts 27.5 42.5
+
+(* Heavy text *)
+newstring font Helvetica fontsize 7 x 44 y 42.5 hjc vjc :
+Heavy
+
+(* Shields proficiency circle *)
+newcurve marktype circle marksize 6 6 fill 1 pts 68 42.5
+
+(* Shields text *)
+newstring font Helvetica fontsize 7 x 85 y 42.5 hjc vjc :
+Shields
+
+
+(* WEAPONS section title line *)
+newline poly pfill 0 pts
+-96 33
+-96 33.5
+96 33.5
+96 33
+
+(* WEAPONS text *)
+newstring font Times-Roman fontsize 7 x -80 y 28 hjc vjc :
+WEAPONS
+
+
+(* TOOLS section title line *)
+newline poly pfill 0 pts
+-96 -30
+-96 -30.5
+96 -30.5
+96 -30
+
+(* TOOLS text *)
+newstring font Times-Roman fontsize 7 x -85 y -35 hjc vjc :
+TOOLS
+

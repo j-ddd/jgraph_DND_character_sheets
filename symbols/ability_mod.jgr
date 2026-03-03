@@ -1,0 +1,85 @@
+newgraph
+xaxis min -100 max 100 nodraw
+yaxis min -100 max 100 nodraw
+
+(* bottom thick line *)
+newline poly pfill 0 pts
+-100 -98
+-100 -100
+100 -100
+100 -98
+
+(* left vertical thick line *)
+newline poly pfill 0 pts
+-100 -100
+-100 100
+-98 100
+-98 -100
+
+(* top thick line *)
+newline poly pfill 0 pts
+-100 100
+-100 98
+100 98
+100 100
+
+(* right thick line *)
+newline poly pfill 0 pts
+98 100
+100 100
+100 -100
+98 -100
+
+(* saving throw top box line *)
+newline poly pfill 0 pts
+-100 -50
+-100 -51
+100 -51
+100 -50
+
+(* saving throw proficiency circle *)
+newcurve marktype circle marksize 13 13 fill 1 pts -80 -75
+
+(* saving throw modifier line *)
+newline poly pfill 0 pts
+-65 -86
+-65 -86.5
+-15 -86.5
+-15 -86
+
+(* ability mod bonus circle *)
+newcurve marktype circle marksize 91 91 fill 1 pts -33 23
+newcurve marktype circle marksize 90 90 fill 1 pts -33 23
+
+(* bottom thick line for score *)
+newline poly pfill 0 pts
+-9 60
+-5 59
+90 59
+90 60
+
+(* right vertical thick line for score *)
+newline poly pfill 0 pts
+90 60
+89 60
+89 -15
+90 -15
+
+(* top thick line for score *)
+newline poly pfill 0 pts
+90 -16
+90 -15
+-6 -15
+-10 -16
+
+(* Saving Throw text *)
+newstring font Helvetica fontsize 15 x 33 y -76 hjc vjc :
+Saving Throw
+
+(* MODIFIER text *)
+newstring font Times-Roman fontsize 14 x -32 y -35 hjc vjc :
+MODIFIER
+
+(* SCORE text *)
+newstring font Times-Roman fontsize 14 x 45 y -25 hjc vjc :
+SCORE

@@ -1,0 +1,71 @@
+newgraph
+xaxis min -100 max 100 nodraw
+yaxis min -100 max 100 nodraw
+
+(* bottom thick line *)
+newline poly pfill 0 pts
+-100 -48
+-100 -50
+100 -50
+100 -48
+
+(* left vertical thick line *)
+newline poly pfill 0 pts
+-100 -50
+-100 50
+-98 50
+-98 -50
+
+(* top thick line *)
+newline poly pfill 0 pts
+-100 50
+-100 48
+100 48
+100 50
+
+(* right thick line *)
+newline poly pfill 0 pts
+98 50
+100 50
+100 -50
+98 -50
+
+(* heroic insp seperator for title line *)
+newline poly pfill 0 pts
+-90 0
+-90 0
+90 0
+90 0
+
+(* heroic insp left line *)
+newline poly pfill 0 pts
+-40 0
+-39 0
+-39 -40
+-40 -40
+
+(* heroic insp bottom line *)
+newline poly pfill 0 pts
+-40 -40
+-40 -39
+40 -39
+40 -40
+
+(* heroic insp right line *)
+newline poly pfill 0 pts
+40 0
+39 0
+39 -40
+40 -40
+
+(* heroic inspiration circle *)
+newcurve marktype circle marksize 20.25 20.25 fill 1 pts 0 -20
+newcurve marktype circle marksize 20 20 fill 1 pts -0 -20
+
+(* HEROIC text *)
+newstring font Helvetica fontsize 17 x 0 y 35 hjc vjc :
+HEROIC
+
+(* INSPIRATION text *)
+newstring font Helvetica fontsize 17 x 0 y 15 hjc vjc :
+INSPIRATION

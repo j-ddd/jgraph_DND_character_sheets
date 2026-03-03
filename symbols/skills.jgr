@@ -1,0 +1,299 @@
+newgraph
+xaxis min -100 max 100 nodraw
+yaxis min -100 max 100 nodraw
+
+(* bottom thick line *)
+newline poly pfill 0 pts
+-100 -67
+-100 -68
+100 -68
+100 -67
+
+(* left vertical thick line *)
+newline poly pfill 0 pts
+-100 -68
+-100 68
+-99 68
+-99 -68
+
+(* top thick line *)
+newline poly pfill 0 pts
+-100 68
+-100 67
+100 67
+100 68
+
+(* right thick line *)
+newline poly pfill 0 pts
+99 68
+100 68
+100 -68
+99 -68
+
+
+
+
+
+
+
+
+(* L1 acrobatics proficiency circle *)
+newcurve marktype circle marksize 6 6 fill 1 pts -90.5 56
+
+(* acrobatics modifier line *)
+newline poly pfill 0 pts
+-83.5 53
+-83.5 53.01
+-60 53.01
+-60 53
+
+(* acrobatics text *)
+newstring font Helvetica fontsize 7 x -44 y 56 hjc vjc :
+Acrobatics
+
+(* L2 animal handling proficiency circle *)
+newcurve marktype circle marksize 6 6 fill 1 pts -90.5 42
+
+(* animal handling modifier line *)
+newline poly pfill 0 pts
+-83.5 39
+-83.5 39.01
+-60 39.01
+-60 39
+
+(* animal handling text *)
+newstring font Helvetica fontsize 7 x -35 y 42 hjc vjc :
+Animal Handling
+
+(* L3 Arcana proficiency circle *)
+newcurve marktype circle marksize 6 6 fill 1 pts -90.5 28
+
+(* Arcana modifier line *)
+newline poly pfill 0 pts
+-83.5 25
+-83.5 25.01
+-60 25.01
+-60 25
+
+(* Arcana text *)
+newstring font Helvetica fontsize 7 x -48 y 28 hjc vjc :
+Arcana
+
+(* L4 Athletics proficiency circle *)
+newcurve marktype circle marksize 6 6 fill 1 pts -90.5 14
+
+(* Athletics modifier line *)
+newline poly pfill 0 pts
+-83.5 11
+-83.5 11.01
+-60 11.01
+-60 11
+
+(* Athletics text *)
+newstring font Helvetica fontsize 7 x -47 y 14 hjc vjc :
+Athletics
+
+(* L5 Deception proficiency circle *)
+newcurve marktype circle marksize 6 6 fill 1 pts -90.5 0
+
+(* Deception modifier line *)
+newline poly pfill 0 pts
+-83.5 -3
+-83.5 -3.01
+-60 -3.01
+-60 -3
+
+(* Deception text *)
+newstring font Helvetica fontsize 7 x -44 y 0 hjc vjc :
+Deception
+
+(* L6 History proficiency circle *)
+newcurve marktype circle marksize 6 6 fill 1 pts -90.5 -14
+
+(* History modifier line *)
+newline poly pfill 0 pts
+-83.5 -17
+-83.5 -17.01
+-60 -17.01
+-60 -17
+
+(* History text *)
+newstring font Helvetica fontsize 7 x -49 y -14 hjc vjc :
+History
+
+(* L7 Insight proficiency circle *)
+newcurve marktype circle marksize 6 6 fill 1 pts -90.5 -28
+
+(* Insight modifier line *)
+newline poly pfill 0 pts
+-83.5 -31
+-83.5 -31.01
+-60 -31.01
+-60 -31
+
+(* Insight text *)
+newstring font Helvetica fontsize 7 x -50 y -28 hjc vjc :
+Insight
+
+(* L8 Intimidation proficiency circle *)
+newcurve marktype circle marksize 6 6 fill 1 pts -90.5 -42
+
+(* Intimidation modifier line *)
+newline poly pfill 0 pts
+-83.5 -45
+-83.5 -45.01
+-60 -45.01
+-60 -45
+
+(* Intimidation text *)
+newstring font Helvetica fontsize 7 x -42 y -42 hjc vjc :
+Intimidation
+
+(* L9 Investigation proficiency circle *)
+newcurve marktype circle marksize 6 6 fill 1 pts -90.5 -56
+
+(* Investigation modifier line *)
+newline poly pfill 0 pts
+-83.5 -59
+-83.5 -59.01
+-60 -59.01
+-60 -59
+
+(* Investigationg text *)
+newstring font Helvetica fontsize 7 x -40.5 y -56 hjc vjc :
+Investigation
+
+
+
+
+
+
+
+
+
+
+(* R1 Medicine proficiency circle *)
+newcurve marktype circle marksize 6 6 fill 1 pts 14.5 56
+
+(* Medicine modifier line *)
+newline poly pfill 0 pts
+22 53
+22 53.01
+45.5 53.01
+45.5 53
+
+(* Medicine text *)
+newstring font Helvetica fontsize 7 x 46 y 56 hjl vjc :
+Medicine
+
+(* R2 Nature proficiency circle *)
+newcurve marktype circle marksize 6 6 fill 1 pts 14.5 42
+
+(* Nature modifier line *)
+newline poly pfill 0 pts
+22 39
+22 39.01
+45.5 39.01
+45.5 39
+
+(* Nature text *)
+newstring font Helvetica fontsize 7 x 46 y 42 hjl vjc :
+Nature
+
+(* R3 Perception proficiency circle *)
+newcurve marktype circle marksize 6 6 fill 1 pts 14.5 28
+
+(* Perception modifier line *)
+newline poly pfill 0 pts
+22 25
+22 25.01
+45.5 25.01
+45.5 25
+
+(* Perception text *)
+newstring font Helvetica fontsize 7 x 46 y 28 hjl vjc :
+Perception
+
+(* R4 Performance proficiency circle *)
+newcurve marktype circle marksize 6 6 fill 1 pts 14.5 14
+
+(* Performance modifier line *)
+newline poly pfill 0 pts
+22 11
+22 11.01
+45.5 11.01
+45.5 11
+
+(* Performance text *)
+newstring font Helvetica fontsize 7 x 46 y 14 hjl vjc :
+Performance
+
+(* R5 Persuasion proficiency circle *)
+newcurve marktype circle marksize 6 6 fill 1 pts 14.5 0
+
+(* Persuasion modifier line *)
+newline poly pfill 0 pts
+22 -3
+22 -3.01
+45.5 -3.01
+45.5 -3
+
+(* Persuasion text *)
+newstring font Helvetica fontsize 7 x 46 y 0 hjl vjc :
+Persuasion
+
+(* R6 Religion proficiency circle *)
+newcurve marktype circle marksize 6 6 fill 1 pts 14.5 -14
+
+(* Religion modifier line *)
+newline poly pfill 0 pts
+22 -17
+22 -17.01
+45.5 -17.01
+45.5 -17
+
+(* Religion text *)
+newstring font Helvetica fontsize 7 x 46 y -14 hjl vjc :
+Religion
+
+(* R7 Sleight Of Hand proficiency circle *)
+newcurve marktype circle marksize 6 6 fill 1 pts 14.5 -28
+
+(* Sleight Of Hand modifier line *)
+newline poly pfill 0 pts
+22 -31
+22 -31.01
+45.5 -31.01
+45.5 -31
+
+(* Sleight Of Hand text *)
+newstring font Helvetica fontsize 7 x 46 y -28 hjl vjc :
+Sleight Of Hand
+
+(* R8 Stealth proficiency circle *)
+newcurve marktype circle marksize 6 6 fill 1 pts 14.5 -42
+
+(* Stealth modifier line *)
+newline poly pfill 0 pts
+22 -45
+22 -45.01
+45.5 -45.01
+45.5 -45
+
+(* Stealth text *)
+newstring font Helvetica fontsize 7 x 46 y -42 hjl vjc :
+Stealth
+
+(* R9 Survival proficiency circle *)
+newcurve marktype circle marksize 6 6 fill 1 pts 14.5 -56
+
+(* Survival modifier line *)
+newline poly pfill 0 pts
+22 -59
+22 -59.01
+45.5 -59.01
+45.5 -59
+
+(* Survival text *)
+newstring font Helvetica fontsize 7 x 46 y -56 hjl vjc :
+Survival

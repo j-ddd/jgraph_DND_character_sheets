@@ -1,0 +1,42 @@
+newgraph
+xaxis min -100 max 100 nodraw
+yaxis min -100 max 100 nodraw
+
+(* bottom thick line *)
+newline poly pfill 0 pts
+-75 -48
+-75 -50
+75 -50
+75 -48
+
+(* left vertical thick line *)
+newline poly pfill 0 pts
+-75 -50
+-75 50
+-73 50
+-73 -50
+
+(* top thick line *)
+newline poly pfill 0 pts
+-75 50
+-75 48
+75 48
+75 50
+
+(* right thick line *)
+newline poly pfill 0 pts
+73 50
+75 50
+75 -50
+73 -50
+
+(* seperator for title line *)
+newline poly pfill 0 pts
+-70 20
+-70 21
+70 21
+70 20
+
+(* SPEED text *)
+newstring font Helvetica fontsize 17 x 0 y 32 hjc vjc :
+SPEED

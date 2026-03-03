@@ -1,0 +1,58 @@
+newgraph
+xaxis min -100 max 100 nodraw
+yaxis min -100 max 100 nodraw
+
+(* top line *)
+newline poly pfill 0 pts
+-60 72
+-60 71
+55 71
+55 72
+
+(* left veritcal line *)
+newline poly pfill 0 pts
+-60 72
+-59 72
+-59 -90
+-60 -90
+
+(* right veritcal line *)
+newline poly pfill 0 pts
+55 72
+54 72
+54 -90
+55 -90
+
+(* bottom line *)
+newline poly pfill 0 pts
+-60 -90
+-60 -91
+55 -91
+55 -90
+
+(* max line *)
+newline poly pfill 0 pts
+-50 -65
+-50 -64
+46 -64
+46 -65
+
+(* spent line *)
+newline poly pfill 0 pts
+-50 -5
+-50 -4
+46 -4
+46 -5
+
+(* SPENT text *)
+newstring font Times-Roman fontsize 17 x -28 y -15 hjc vjc :
+SPENT
+
+(* MAX text *)
+newstring font Times-Roman fontsize 17 x -30 y -75 hjc vjc :
+MAX
+
+(* HIT DICE text *)
+newstring font Helvetica fontsize 17 x -4 y 55 hjc vjc :
+HIT DICE
+

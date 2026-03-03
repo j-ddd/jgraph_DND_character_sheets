@@ -1,0 +1,76 @@
+newgraph
+xaxis min -80 max 90 nodraw
+yaxis min -100 max 100 nodraw
+
+(* top line *)
+newline poly pfill 0 pts
+-100 72
+-100 71
+100 71
+100 72
+
+(* left veritcal line *)
+newline poly pfill 0 pts
+-100 72
+-99 72
+-99 -90
+-100 -90
+
+(* right veritcal line *)
+newline poly pfill 0 pts
+100 72
+99 72
+99 -90
+100 -90
+
+(* bottom line *)
+newline poly pfill 0 pts
+-100 -90
+-100 -91
+100 -91
+100 -90
+
+(* Hit points seperator line line *)
+newline poly pfill 0 pts
+0 40
+0 40
+0 -70
+0 -70
+
+(* current line *)
+newline poly pfill 0 pts
+-90 -65
+-90 -64
+-10 -64
+-10 -65
+
+(* max line *)
+newline poly pfill 0 pts
+10 -65
+10 -64
+80 -64
+80 -65
+
+(* temp line *)
+newline poly pfill 0 pts
+10 -5
+10 -4
+80 -4
+80 -5
+
+(* CURRENT text *)
+newstring font Times-Roman fontsize 17 x -55 y -75 hjc vjc :
+CURRENT
+
+(* MAX text *)
+newstring font Times-Roman fontsize 17 x 25 y -75 hjc vjc :
+MAX
+
+(* TEMP text *)
+newstring font Times-Roman fontsize 17 x 26 y -15 hjc vjc :
+TEMP
+
+(* HIT POINTS text *)
+newstring font Helvetica fontsize 17 x 0 y 55 hjc vjc :
+HIT POINTS
+

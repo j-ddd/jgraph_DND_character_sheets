@@ -1,0 +1,38 @@
+newgraph
+xaxis min -100 max 100 nodraw
+yaxis min -100 max 100 nodraw
+
+(* bottom thick line *)
+newline poly pfill 0 pts
+-100 -44
+-100 -44.1
+100 -44.1
+100 -44
+
+(* left vertical thick line *)
+newline poly pfill 0 pts
+-100 -44.1
+-100 45.1
+-99.9 45.1
+-99.9 -44.1
+
+(* top thick line *)
+newline poly pfill 0 pts
+-100 45.1
+-100 45
+100 45
+100 45.1
+
+(* right thick line *)
+newline poly pfill 0 pts
+99.9 45.1
+100 45.1
+100 -44.1
+99.9 -44.1
+
+(* title seperator line *)
+newline poly pfill 0 pts
+-96 36
+-96 36.1
+96 36.1
+96 36
